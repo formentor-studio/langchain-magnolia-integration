@@ -1,4 +1,12 @@
-# Integration of Magnolia with LangChain
-Integration of [Magnolia](https://www.magnolia-cms.com/) with [LangChain](https://www.langchain.com/).
+# Integration of LangChain with Magnolia
+This repository proposes an integration of [LangChain](https://github.com/langchain-ai) with [Magnolia](https://www.magnolia-cms.com/) by implementing a document loader that allows the introduction of contents from [Magnolia](https://www.magnolia-cms.com/) in the pipeline of [LangChain](https://github.com/langchain-ai)
 
-It shows the implementation of a [document loader](https://python.langchain.com/v0.2/docs/integrations/document_loaders/) that allows to introduce Magnolia contents in the pipeline of [LangChain](https://www.langchain.com/)
+## Python implementation
+It is provided the python notebook `chat_with_magnolia.ipynb` that implements the document loader and shows an example of usage.
+
+## Javascript implementation
+The document loader made in javascript is published in the following [fork](https://github.com/joaquin-alfaro/langchainjs/tree/feature/magnolia-loader) of [LangChain](https://github.com/langchain-ai/langchainjs)
+
+https://github.com/joaquin-alfaro/langchainjs/tree/feature/magnolia-loader
+
+The typescript code `chat_with_magnolia.ts` provides an example of usage of the document loader.
